@@ -4,7 +4,6 @@ import {
   MdKeyboardDoubleArrowLeft,
   MdKeyboardDoubleArrowRight,
 } from "react-icons/md";
-import { IoSearch } from "react-icons/io5";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 
 const Header = ({ isMenuOpen, setIsMenuOpen }) => {
