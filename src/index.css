@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.input {
+  @apply w-full border-2 outline-none dark:border-themeDark-quaternary text-[12px] xs:text-[14px]
+  rounded-md p-2 dark:bg-themeDark-quinary;
+}
+
+.th {
+  @apply col-span-1 text-[14px] font-semibold;
+}
+
+.td {
+  @apply col-span-1 text-[12px] lg:text-[14px];
+}
+.rs {
+  @apply text-[18px] lg:text-[24px] items-center justify-center flex text-center gap-2 tracking-wide;
+}
+.revenue-span {
+  @apply text-[12px] flex justify-center lg:text-[14px] dark:text-themeDark-secondary;
+}
+.revenue-div {
+  @apply p-5 w-44 h-24 lg:h-28 xl:w-56 duration-500 text-center bg-gray-300 hover:bg-gray-100 border-gray-600 dark:bg-themeDark-quinary rounded-md
+   dark:border-themeDark-quaternary border-[1px];
+}
