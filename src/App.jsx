@@ -12,7 +12,7 @@ import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 
 function App() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
 
   return (
     <div className="h-screen flex">
